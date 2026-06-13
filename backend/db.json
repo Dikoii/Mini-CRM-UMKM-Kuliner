@@ -1,0 +1,132 @@
+{
+  "customers": [
+    {
+      "id": "8b75e407-cbd3-4e53-8065-b7f7920b9889",
+      "name": "Amer",
+      "email": "A@gmail.com",
+      "phone": "123456789",
+      "createdAt": "2026-06-13T17:43:17.183Z"
+    },
+    {
+      "id": "9669903b-04de-45ba-a9d6-53dadd03fdd9",
+      "name": "budi",
+      "email": "budi@email.com",
+      "phone": "123456778",
+      "createdAt": "2026-06-13T17:55:07.398Z"
+    },
+    {
+      "id": "b9eca1ad-4f38-4572-813a-9066e7aa804f",
+      "name": "doi",
+      "email": "doi@doi.com",
+      "phone": "121345678",
+      "createdAt": "2026-06-13T18:02:05.878Z"
+    },
+    {
+      "id": "370a83d8-779c-420b-8363-9dd30335951e",
+      "name": "Test kosong",
+      "email": "kosong@yahoo.com",
+      "phone": "12345678",
+      "createdAt": "2026-06-13T18:05:48.348Z"
+    },
+    {
+      "id": "797d365c-a8a9-4d84-ad91-5fd467dca384",
+      "name": "Budi",
+      "email": "budi@example.com",
+      "phone": "08123456789",
+      "createdAt": "2026-06-13T18:15:10.665Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "7027ba8a-fef7-4a41-9cee-8345c5d505e6",
+      "customer_id": "8b75e407-cbd3-4e53-8065-b7f7920b9889",
+      "items": [
+        {
+          "name": "Ice Coffee",
+          "quantity": 2,
+          "price": 5000
+        }
+      ],
+      "total_price": 10000,
+      "createdAt": "2026-06-13T17:54:32.812Z"
+    },
+    {
+      "id": "3a6f7683-e008-499b-9aef-33f2d53c48f3",
+      "customer_id": "9669903b-04de-45ba-a9d6-53dadd03fdd9",
+      "items": [
+        {
+          "name": "Americano",
+          "quantity": 2,
+          "price": 10000
+        }
+      ],
+      "total_price": 20000,
+      "createdAt": "2026-06-13T17:55:31.115Z"
+    },
+    {
+      "id": "2b86ab48-ea57-4576-8d6a-79076022d38e",
+      "customer_id": "b9eca1ad-4f38-4572-813a-9066e7aa804f",
+      "items": [
+        {
+          "name": "latte",
+          "quantity": 2,
+          "price": 5000
+        }
+      ],
+      "total_price": 10000,
+      "createdAt": "2026-06-13T18:03:02.143Z"
+    },
+    {
+      "id": "1568533b-d64c-4129-9e74-22f5ee91ac56",
+      "customer_id": "b9eca1ad-4f38-4572-813a-9066e7aa804f",
+      "items": [
+        {
+          "name": "latte",
+          "quantity": 1,
+          "price": 5000
+        }
+      ],
+      "total_price": 5000,
+      "createdAt": "2026-06-13T18:03:41.090Z"
+    },
+    {
+      "id": "f666c480-6025-47cc-ac75-dd718777f374",
+      "customer_id": "b9eca1ad-4f38-4572-813a-9066e7aa804f",
+      "items": [
+        {
+          "name": "Baguette",
+          "quantity": 1,
+          "price": 10000
+        }
+      ],
+      "total_price": 10000,
+      "createdAt": "2026-06-13T18:08:15.528Z"
+    },
+    {
+      "id": "7c939b35-d2d4-43ad-9ff3-8204776806cb",
+      "customer_id": "b9eca1ad-4f38-4572-813a-9066e7aa804f",
+      "items": [
+        {
+          "name": "Americano",
+          "quantity": 1,
+          "price": 5000
+        }
+      ],
+      "total_price": 5000,
+      "createdAt": "2026-06-13T18:09:11.503Z"
+    },
+    {
+      "id": "ed4fb015-52b1-444c-9f63-4264f876123a",
+      "customer_id": "797d365c-a8a9-4d84-ad91-5fd467dca384",
+      "items": [
+        {
+          "name": "Nasi Goreng",
+          "quantity": 2,
+          "price": 15000
+        }
+      ],
+      "total_price": 30000,
+      "createdAt": "2026-06-13T18:15:18.978Z"
+    }
+  ]
+}
