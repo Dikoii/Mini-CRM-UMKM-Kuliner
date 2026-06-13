@@ -71,7 +71,7 @@ export default function OrderForm() {
 
   return (
     <div className="bg-white rounded-xl border border-slate-200/80 p-5 shadow-sm">
-      <div className="border-l-4 border-amber-500 pl-3 mb-5">
+      <div className="border-l-4 border-brand-600 pl-3 mb-5">
         <h2 className="font-bold text-slate-900 text-base">Tambah Pesanan</h2>
       </div>
 
@@ -164,7 +164,7 @@ export default function OrderForm() {
         <button
           onClick={handleSubmit}
           disabled={loading}
-          className="mt-2 bg-amber-500 hover:bg-amber-600 active:bg-amber-700 text-white text-sm font-semibold rounded-lg py-2.5 px-4 shadow-sm hover:shadow transition-all disabled:opacity-50 cursor-pointer text-center"
+          className="mt-2 bg-brand-600 hover:bg-brand-700 active:bg-brand-800 text-white text-sm font-semibold rounded-lg py-2.5 px-4 shadow-sm hover:shadow transition-all disabled:opacity-50 cursor-pointer text-center"
         >
           {loading ? 'Menyimpan...' : 'Simpan Pesanan'}
         </button>
